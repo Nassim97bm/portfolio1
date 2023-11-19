@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+header, nav {
+    background: linear-gradient(to right, #8e44ad, #3498db);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.box, .link {
+    background-color: #ff1493;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    border: 2px;
+}
+
+.link:hover {
+    color: #402786;
+}
+
+#experiences-list {
+    line-height: 4;
+
+}
+
+
+section {
+    margin-bottom: 10rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
